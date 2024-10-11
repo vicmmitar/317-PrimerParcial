@@ -25,7 +25,7 @@ namespace WebApplication3
         }
 
         [WebMethod]
-        public double suma(string expresion)
+        public double evaluarexpresion(string expresion)
         {
             double resultado = cal.EvaluateInfix(expresion);
             return resultado;
